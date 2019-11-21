@@ -1,5 +1,7 @@
-package ValidateGameInput;
+package Validation;
 
+
+import GameInput.UserEnteredInput;
 
 import java.util.ArrayList;
 

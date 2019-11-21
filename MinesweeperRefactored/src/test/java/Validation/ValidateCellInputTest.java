@@ -1,7 +1,6 @@
-package ValidateGameInputTest;
+package Validation;
 
-import ValidateGameInput.UserEnteredInput;
-import ValidateGameInput.ValidateCellInput;
+import GameInput.UserEnteredInput;
 import org.junit.Test;
 import org.mockito.Mockito;
 

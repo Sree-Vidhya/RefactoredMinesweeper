@@ -1,4 +1,6 @@
-package ValidateGameInput;
+package Validation;
+
+import GameInput.UserEnteredInput;
 
 public class ValidateFieldLayout implements ValidateInput
 {

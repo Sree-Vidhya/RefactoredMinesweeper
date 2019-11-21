@@ -1,4 +1,4 @@
-package ValidateGameInput;
+package Validation;
 
 public interface ValidateInput
 {

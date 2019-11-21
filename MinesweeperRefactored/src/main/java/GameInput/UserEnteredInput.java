@@ -1,4 +1,4 @@
-package ValidateGameInput;
+package GameInput;
 
 import java.util.Scanner;
 
