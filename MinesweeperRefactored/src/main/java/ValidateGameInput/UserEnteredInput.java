@@ -1,10 +1,12 @@
-package GameInput;
+package ValidateGameInput;
 
 import java.util.Scanner;
 
-public class UserEnteredInput {
+public class UserEnteredInput
+{
     Scanner input = new Scanner(System.in);
-    public String inputInSameLine(){
+    public String inputInSameLine()
+    {
         return input.next();
     }
     public String inputInNextLine()

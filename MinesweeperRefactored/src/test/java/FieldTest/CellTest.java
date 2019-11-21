@@ -3,8 +3,22 @@ package FieldTest;
 import Field.Cell;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class CellTest {
-    Cell cell = new Cell();
+
     @Test
-    public void
+    public void returnCellState()
+    {
+        Cell cell = new Cell("*");
+        assertEquals("*",cell.getState("*"));
+        cell = new Cell(".");
+        assertEquals(".",cell.getState("."));
+    }
+    @Test
+    public void returnCellValue()
+    {
+        Cell cell = new Cell(".");
+        assertEquals(0,cell.getValue());
+    }
 }

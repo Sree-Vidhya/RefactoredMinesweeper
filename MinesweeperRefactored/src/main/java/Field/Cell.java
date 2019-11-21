@@ -1,19 +1,27 @@
 package Field;
 
-public class Cell {
+public class Cell
+{
     String state;
     int value = 0;
 
-    public String getState() {
+    public Cell(String state) {
+        this.state = state;
+    }
+
+    public String getState(String state)
+    {
         return state;
     }
 
-    public int getValue() {
+    public int getValue()
+    {
         return value;
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Cell{" +
                 "state='" + state + '\'' +
                 ", value=" + value +

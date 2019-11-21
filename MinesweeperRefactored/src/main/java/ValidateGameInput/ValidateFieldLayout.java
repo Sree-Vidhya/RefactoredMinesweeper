@@ -1,17 +1,22 @@
-package GameInput;
+package ValidateGameInput;
 
-public class ValidateFieldLayout implements ValidateInput{
+public class ValidateFieldLayout implements ValidateInput
+{
     UserEnteredInput userEnteredInput;
 
-    public ValidateFieldLayout(UserEnteredInput userEnteredInput) {
+    public ValidateFieldLayout(UserEnteredInput userEnteredInput)
+    {
         this.userEnteredInput = userEnteredInput;
     }
 
-    public boolean validateTheInput(String inputToValidate) {
-            try {
+    public boolean validateTheInput(String inputToValidate)
+    {
+            try
+            {
                 Integer.parseInt(inputToValidate);
                 return true;
-            } catch (NumberFormatException ex) {
+            } catch (NumberFormatException ex)
+            {
                 return false;
             }
         }
